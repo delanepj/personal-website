@@ -12,8 +12,15 @@ requirejs.config({
     //the paths config could be for a directory.
     paths: {
         app: '../app',
-		jquery: '//code.jquery.com/jquery-3.0.0-alpha1',
-		bootstrap: '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min'
+		jquery: 'jquery-3.0.0-alpha1.min',
+		bootstrap: 'bootstrap.4.0..min',
+        tether: 'tether.min'
+    },
+    shim: {
+        'Bootstrap': {
+            deps: ['tether','jquery'],
+            exports: 'bootstrap'
+        }
     }
 	
 });

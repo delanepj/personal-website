@@ -1,8 +1,15 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF; }
+
+/* Header Styles Here. TODO Move to separate Sass file once complete. */
+.inline {
+  float: left;
+  padding-right: 10%; }
+
+.nav-item {
+  padding: 1% 0% 0% 5%; }
 
 /*# sourceMappingURL=style.css.map */
